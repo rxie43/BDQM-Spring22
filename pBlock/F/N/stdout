@@ -1,0 +1,25 @@
+---------------------------------------
+Begin PBS Prologue Mon Feb 21 12:11:54 EST 2022
+Job ID:     4011316.sched-torque.pace.gatech.edu
+User ID:    rxie43
+Job name:   f_nabsorb_slab
+Queue:      inferno
+End PBS Prologue Mon Feb 21 12:11:54 EST 2022
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/3/rxie43/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/home/hcoda1/3/rxie43/pBlock/F/N
+CMD mpirun -wdir /storage/home/hcoda1/3/rxie43/scratch/qe_1130903_4011316.sched-torque.pace.gatech.eduxdpy2_i5_scratch pw.x -in /storage/home/hcoda1/3/rxie43/pBlock/F/N/qe_4011316.sched-torque.pace.gatech.edu/pw.inp --ipi qe_1130903_4011316.sched-torque.pace.gatech.eduxdpy2_i5_scratch:UNIX >> /storage/home/hcoda1/3/rxie43/pBlock/F/N/qe_4011316.sched-torque.pace.gatech.edu/pw.out
+46912883927888 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1130903_4011316.sched-torque.pace.gatech.eduxdpy2_i5_scratch> 
+---------------------------------------
+Begin PBS Epilogue Tue Feb 22 00:07:35 EST 2022
+Job ID:     4011316.sched-torque.pace.gatech.edu
+User ID:    rxie43
+Job name:   f_nabsorb_slab
+Resources:  nodes=1:ppn=16,pmem=10gb,walltime=24:00:00,neednodes=1:ppn=16
+Rsrc Used:  cput=186:51:26,vmem=111674664kb,walltime=11:55:41,mem=67892640kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-020-27-l.pace.gatech.edu
+End PBS Epilogue Tue Feb 22 00:07:35 EST 2022
+---------------------------------------
